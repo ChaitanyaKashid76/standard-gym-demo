@@ -76,7 +76,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-medium mb-1">Phone Number</h4>
-                    <p className="text-zinc-400">+1 (555) 123-4567</p>
+                    <p className="text-zinc-400">+91 8208951770</p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
@@ -92,7 +92,7 @@ export default function Contact() {
 
               <div className="mt-8 pt-8 border-t border-zinc-800">
                 <a 
-                  href="https://wa.me/15551234567" 
+                  href="https://wa.me/918208951770" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="flex items-center justify-center gap-2 w-full bg-[#25D366] hover:bg-[#20bd5a] text-white py-4 rounded-xl font-bold transition-colors"
@@ -146,7 +146,7 @@ export default function Contact() {
                   value={formData.phone}
                   onChange={(e) => setFormData({...formData, phone: e.target.value})}
                   className="w-full bg-zinc-950 border border-zinc-800 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-emerald-500 focus:ring-1 focus:ring-emerald-500 transition-colors"
-                  placeholder="+1 (555) 000-0000"
+                  placeholder="+91 8208951770"
                 />
               </div>
               <div>
